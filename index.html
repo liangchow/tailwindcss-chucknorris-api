@@ -11,10 +11,10 @@
     <div id="app">
       <h2 class="text-4xl sm:text-5xl md:text-6xl text-center py-[10px]">Chuck Norris API</h2>
       <div>
-        <p class="text-lg sm:text-xl md:text-2xl text-center overflow-hidden mt-[20px] mb-[10px]">Press 'Load Another' for Joke..</p>
+        <p id="loadingJoke" class="text-lg sm:text-xl md:text-2xl text-center overflow-hidden mt-[20px] mb-[10px] px-[20px]">Press 'Load Another' for Joke..</p>
       </div>
-      <button class="bg-transparent border-1 border-solid border-lime p-1 mx-auto my-[35px] block uppercase">Load Another</button>
-      <img class="max-w-[600px] w-full mx-auto" id="chucknorrisimg" src="public/chucknorris.png">
+      <button id="loadJokeButton" class="bg-transparent border-1 border-solid border-lime p-1 mx-auto my-[35px] block uppercase cursor-pointer">Load Another</button>
+      <img id="chucknorrisimg" class="max-w-[480px] w-full mx-auto" src="/chucknorris.png">
     </div>
   </body>
   <script src="app.js"></script>

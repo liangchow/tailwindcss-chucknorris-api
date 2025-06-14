@@ -7,13 +7,14 @@
     <title>Chuck Norris Jokes</title>
     <link rel="stylesheet" href="styles.css">
   </head>
-  <body class="bg-black text-lime-400 flex flex-col flex-1 justify-center items-center mx-auto my-auto">
+  <body class="bg-black text-lime-400 flex flex-col flex-1 items-center">
     <div id="app">
-      <h2 class="text-4xl sm:text-5xl md:text-6xl">Chuck Norris API</h2>
+      <h2 class="text-4xl sm:text-5xl md:text-6xl text-center py-[10px]">Chuck Norris API</h2>
       <div>
-        <p class="text-2xl sm:text-3xl md:text-4xl justify-center items-center">Press 'Load Another' for Joke...</p>
+        <p class="text-lg sm:text-xl md:text-2xl text-center overflow-hidden mt-[20px] mb-[10px]">Press 'Load Another' for Joke..</p>
       </div>
-      <button>Load Another</button>
+      <button class="bg-transparent border-1 border-solid border-lime p-1 mx-auto my-[35px] block uppercase">Load Another</button>
+      <img class="max-w-[600px] w-full mx-auto" id="chucknorrisimg" src="public/chucknorris.png">
     </div>
   </body>
   <script src="app.js"></script>

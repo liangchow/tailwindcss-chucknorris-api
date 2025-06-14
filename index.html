@@ -4,10 +4,17 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <title>Chuck Norris Jokes</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
+  <body class="bg-black text-lime-400 flex flex-col flex-1 justify-center items-center mx-auto my-auto">
+    <div id="app">
+      <h2 class="text-4xl sm:text-5xl md:text-6xl">Chuck Norris API</h2>
+      <div>
+        <p class="text-2xl sm:text-3xl md:text-4xl justify-center items-center">Press 'Load Another' for Joke...</p>
+      </div>
+      <button>Load Another</button>
+    </div>
   </body>
+  <script src="app.js"></script>
 </html>

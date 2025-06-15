@@ -1,5 +1,5 @@
 const loadJoke = async(req, res) => {
-// export default async function loadJoke(req, res) {
+
     try {
         const res = await fetch(`https://api.chucknorris.io/jokes/random`,{
             headers: {

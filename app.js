@@ -1,12 +1,13 @@
-const loadJoke = async() => {
+const loadJoke = async(req, res) => {
     try {
-        const response = await fetch('https://api.chucknorris.io/jokes/random',{
+        const res = await fetch('https://api.chucknorris.io/jokes/random',{
             headers: {
                 Accept: "application/json"
             }
         })
 
-        const json = await response.json()
+        const json = await res.json()
+        console.log(json)
         document.getElementById("loadingJoke").innerHTML = json.value
     } catch(err){
         console.log(err)

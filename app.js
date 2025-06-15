@@ -1,7 +1,7 @@
 // const loadJoke = async(req, res) => {
 async function loadJoke(req, res) {
     try {
-        const res = await fetch('https://api.chucknorris.io/jokes/random',{
+        const res = await fetch(`https://api.chucknorris.io/jokes/random`,{
             headers: {
                 Accept: "application/json"
             }

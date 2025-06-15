@@ -14,4 +14,4 @@ const loadJoke = async(req, res) => {
     }
 }
 
-document.getElementById("loadJokeButton").addEventListener("click", loadJoke)
+// document.getElementById("loadJokeButton").addEventListener("click", loadJoke)
